@@ -41,7 +41,7 @@ return $result;
 }
 
 while(true){
-	$file = "voc_bl.txt";
+	$file = "horangkaya.txt";
 		$code = generateRandomString();
         $check = check($code, $file);
 		if ($check['status'] == "sukses"){
