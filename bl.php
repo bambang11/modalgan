@@ -22,7 +22,7 @@ function generateRandomString($length = 4) {
     for ($i = 0; $i < $length; $i++) {
         $randomString .= $characters[rand(0, $charactersLength - 1)];
     }
-    return "BLMOIV".$randomString;
+    return "BLMOII".$randomString;
 }
 function save($file, $code){
 file_put_contents($file, $code, FILE_APPEND);
